@@ -24,12 +24,12 @@
     <form action="http://httpbin.org/anything" method="post">
 
     <div class="name">
-      <label for="name">Name</label>
+      <label for="name">Name:</label>
       <input id="name" type="text" name="firstName" />
     </div>
 
     <div class="email">
-      <label for="email">Email</label>
+      <label for="email">Email:</label>
       <input id="email" type="text" name="email" />
     </div>
 
@@ -46,17 +46,22 @@
     <div class="options">
       <legend>What's your favourite animal?</legend>
       <label for="checkbox">Dog</label>
-      <input type="checkBox" name="checkbox" />
+      <input type="checkBox" name="checkbox" value="Dog"/>
       <label for="checkbox">Cat</label>
-      <input type="checkBox" name="checkbox" />
+      <input type="checkBox" name="checkbox" value="Cat" />
       <label for="checkbox">Bird</label>
-      <input type="checkbox" name="checkbox" />
+      <input type="checkbox" name="checkbox" value="Bird"/>
+    </div>
+
+    <div class="password">
+      <label for="password">Password:</label>
+      <input type="password" name="password" />
     </div>
 
     <div class="submit">
       <input type="submit" value="Submit" />
-
     </div>
+
 
     </form>
 

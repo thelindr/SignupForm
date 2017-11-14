@@ -11,6 +11,7 @@ header {
   width: auto;
 }
 
+
 .hero-image {
   background-color: pink;
   width: 20vw;
@@ -20,6 +21,10 @@ header {
   margin: auto;
   margin-top: 10%;
 
+}
+
+.hero-image:hover {
+  background-color: orange;
 }
 
 .hero-text {
@@ -73,6 +78,7 @@ form {
 
 .submit {
   margin-top: 4%;
+  width: 38%;
 }
 
 .submit input {
@@ -88,8 +94,8 @@ form {
 
 .submit input:active {
   background-color: #3e8e41;
-  box-shadow: 5 5px #666;
-  transform: translateY(10px);
+  box-shadow: 5px 5px #666;
+  transform: translateY(4px);
 }
 
 input {
@@ -100,8 +106,15 @@ input {
    background-color: pink;
    outline: none;
    border: none;
+   border-radius: 3px;
+   color: white;
+   font-size: 1vw;
 }
 
 input:focus {
   background-color: orange;
+}
+
+.password {
+  margin-top: 4%;
 }
