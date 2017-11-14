@@ -20,11 +20,13 @@ header {
   border-radius: 50%;
   margin: auto;
   margin-top: 10%;
+  box-shadow: 10px 10px 5px #888888;
 
 }
 
 .hero-image:hover {
   background-color: orange;
+  box-shadow: 5px 5px 5px #888888;
 }
 
 .hero-text {
@@ -90,17 +92,18 @@ form {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 .submit input:active {
   background-color: #3e8e41;
-  box-shadow: 5px 5px #666;
+  box-shadow: 5px 5px 5px #666;
   transform: translateY(4px);
 }
 
 input {
    width: 100%;
-   padding: 12px 20px;
+   padding: 6px 20px;
    margin: 8px 0;
    box-sizing: border-box;
    background-color: pink;
@@ -108,7 +111,11 @@ input {
    border: none;
    border-radius: 3px;
    color: white;
-   font-size: 1vw;
+   font-size: 133%;
+}
+
+input:hover {
+  background-color: orange;
 }
 
 input:focus {
